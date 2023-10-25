@@ -1,0 +1,144 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+.company-name {
+  font-size: 3rem;
+  display: inline-block;
+  font-style: italic;
+  margin: 0px;
+}
+
+a {
+  text-decoration-color: none;
+  text-decoration-line: none;
+  color: goldenrod;
+}
+
+.contact {
+  font-size: large;
+  float: right;
+}
+
+span {
+  color: goldenrod;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.left {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+
+.right {
+  float: right;
+  width: 45%;
+  margin-left: 5%;
+}
+
+
+.tile-image {
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+footer {
+  text-align: center;
+  color: midnightblue;
+}
+
+@media (max-width: 1115px) {
+  .card-title {
+    clear: left;
+  }
+
+  .card-text {
+    clear: left;
+  }
+}
+
+@media (max-width: 1080px) {
+  .header {
+    text-align: center;
+  }
+
+  .company-name {
+    display: block;
+  }
+
+  .contact {
+    float: none;
+  }
+}
+
+@media (max-width: 840px) {
+  .company-name {
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .company-name {
+    font-size: 1.5rem;
+  }
+
+  .right {
+    float: none;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .left {
+    float: none;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .tile-image {
+    width: 100%;
+    height: auto;
+
+  }
+}
+
+@media (max-width: 515px) {
+  footer {
+    font-size: 12px;
+  }
+
+  .company-name {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}
