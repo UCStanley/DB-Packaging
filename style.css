@@ -46,12 +46,14 @@ span {
   float: left;
   width: 45%;
   margin-right: 5%;
+  text-align: justify;
 }
 
 .right {
   float: right;
   width: 45%;
   margin-left: 5%;
+  text-align: justify;
 }
 
 
